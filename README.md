@@ -202,7 +202,7 @@ TaskFlow uses a structured design token system — every color, size, and animat
 
 18 CSS custom properties defined on `:root` in `style.css`. Changing `--accent` updates every button, tab, progress bar, and focus ring at once.
 
-![Frame 01 — Color System / Base palette · Accent & Semantic · Text scale](screenshots/figma-01-colors.png)
+![Frame 01 — Color System / Base palette · Accent & Semantic · Text scale](figma-01-colors.png)
 *Frame 01 — Color System / Base palette · Accent & Semantic · Text scale*
 
 | Token | Hex | Used For |
@@ -222,7 +222,7 @@ TaskFlow uses a structured design token system — every color, size, and animat
 
 Two typefaces only. Instrument Serif Italic for the page heading — Plus Jakarta Sans for everything else.
 
-![Frame 02 — Type scale · Display heading (Instrument Serif) · Body/UI (Plus Jakarta Sans)](screenshots/figma-02-typography.png)
+![Frame 02 — Type scale · Display heading (Instrument Serif) · Body/UI (Plus Jakarta Sans)](figma-02-typography.png)
 *Frame 02 — Type scale · Display heading (Instrument Serif) · Body/UI (Plus Jakarta Sans)*
 
 | Style | Font | Weight / Size |
@@ -239,7 +239,7 @@ Two typefaces only. Instrument Serif Italic for the page heading — Plus Jakart
 
 4pt base grid. All spacing values are multiples of 4. Border radius and shadows are also tokenised.
 
-![Frame 03 — 4pt spacing scale · Border radius tokens (6/10/14/99px) · Shadow tokens](screenshots/figma-03-spacing.png)
+![Frame 03 — 4pt spacing scale · Border radius tokens (6/10/14/99px) · Shadow tokens](figma-03-spacing.png)
 *Frame 03 — 4pt spacing scale · Border radius tokens (6/10/14/99px) · Shadow tokens*
 
 ```
@@ -259,7 +259,7 @@ pill:        99px   → Progress bar
 
 The most complex component. Priority stripe uses `::before` pseudo-element. Action buttons are hidden by default, revealed on hover via CSS opacity.
 
-![Frame 06 — Priority variants (high/medium/low) · Hover · Completed · Edit mode (inline) · Removing animation](screenshots/figma-06-taskcard.png)
+![Frame 06 — Priority variants (high/medium/low) · Hover · Completed · Edit mode (inline) · Removing animation](figma-06-taskcard.png)
 *Frame 06 — Priority variants (high/medium/low) · Hover · Completed · Edit mode (inline) · Removing animation*
 
 | State | How it looks | What triggers it |
@@ -278,7 +278,7 @@ The most complex component. Priority stripe uses `::before` pseudo-element. Acti
 
 ### Frame 09 — Progress Bar + Frame 10 — Toast Notifications
 
-![Frame 09/10 — Progress bar at 0% · 33% · 100% · Toast variants: success (green) · error (red) · info (blue)](screenshots/figma-09-progress-toast.png)
+![Frame 09/10 — Progress bar at 0% · 33% · 100% · Toast variants: success (green) · error (red) · info (blue)](figma-09-progress-toast.png)
 *Frame 09/10 — Progress bar at 0% · 33% · 100% · Toast variants: success (green) · error (red) · info (blue)*
 
 | Component | Key detail |
@@ -295,7 +295,7 @@ The most complex component. Priority stripe uses `::before` pseudo-element. Acti
 
 All 5 user journeys mapped: Create · Complete · Delete · Edit · Filter+Search
 
-![Frame 11 — 5 user interaction flows: each shows Trigger → JS function → State change → DOM update → Feedback](screenshots/figma-11-flows.png)
+![Frame 11 — 5 user interaction flows: each shows Trigger → JS function → State change → DOM update → Feedback](figma-11-flows.png)
 *Frame 11 — 5 user interaction flows: each shows Trigger → JS function → State change → DOM update → Feedback*
 
 ---
